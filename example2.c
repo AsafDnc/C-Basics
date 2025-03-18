@@ -1,12 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void topla( int sayi1, int sayi2) 
-{
-    printf ("sayilarin  toplami %d dir ", sayi1 + sayi2);
-}
+int main() {
+    int vize, fnl;
+    printf("Vize notunu girin: ");
+    scanf("%d", &vize);
 
-int main() 
-{ 
-    topla(12,6);
+    printf("Final notunu girin: ");
+    scanf("%d", &fnl);
+
+    float ortalama = vize*0.4 + fnl*0.6;
+    if(ortalama >= 60) {
+        printf("%f ortalama ile geçti ", ortalama);
+    }
+    else {
+        printf("%f ortalama ile kaldi", ortalama);
+    }
+
+
+
 }
