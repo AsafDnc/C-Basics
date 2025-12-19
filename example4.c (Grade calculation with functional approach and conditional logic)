@@ -6,10 +6,10 @@ void nothesapla(float vize, float final)
     printf("Notunuz = %f", puan);
 
     if(puan > 60) {
-        printf("Dersi geçtiniz.");
+        printf("Dersi gectiniz.");
     }
     else if (puan > 50) {
-        printf("Dersi sorumlu geçtiniz.");
+        printf("Dersi sorumlu gectiniz.");
     }
     else {
         printf("Dersten kaldiniz.");
