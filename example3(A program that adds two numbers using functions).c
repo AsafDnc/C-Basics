@@ -12,4 +12,6 @@ int main()
     int sonuc;
     sonuc = topla(20,10);
     printf("Toplam = %d", sonuc);
+
+    return 0;
 }
