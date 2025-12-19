@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+
+void usalma(int sayi1, int sayi2) {
+    
+    int sonuc = pow(sayi1, sayi2); 
+    printf("Islemin sonucu = %d\n", sonuc);
+}
+
+int main() {
+    int s1, s2;
+
+    printf("Taban sayiyi girin: ");
+    scanf("%d", &s1);
+
+    printf("Us olacak sayiyi girin: ");
+    scanf("%d", &s2);
+
+    usalma(s1, s2); 
+
+    return 0;
+}
