@@ -1,7 +1,7 @@
 # C Programming Basics / C Programlama Temelleri
 
-This repository contains basic C programming examples covering fundamental concepts, logic, and algorithms.<br>
-Bu depo, temel C programlama kavramlarını, mantığını ve algoritmalarını içeren örnekleri barındırmaktadır.
+- This repository contains basic C programming examples covering fundamental concepts, logic, and algorithms.<br><br>
+- Bu depo, temel C programlama kavramlarını, mantığını ve algoritmalarını içeren örnekleri barındırmaktadır.
 
 ---
 
